@@ -13,9 +13,12 @@ public class Armory
     {
         Weapons = new List<Weapon>
         {
-            new("Laser", 10, 20, EWeaponType.Direct),
-            new("Missile", 30, 50, EWeaponType.Explosive),
-            new("Plasma", 40, 60, EWeaponType.Guided)
+            new("Laser", 2, 3, EWeaponType.Direct, 2),
+            new("Hammer", 1, 8, EWeaponType.Explosive, 1.5f),
+            new("Torpille", 3, 3, EWeaponType.Guided, 2),
+            new("Mitrailleuse", 6, 8, EWeaponType.Direct, 1),
+            new("EMG", 1, 7, EWeaponType.Explosive, 1.5f),
+            new("Missile", 4, 100, EWeaponType.Guided, 4)
         };
     }
 
